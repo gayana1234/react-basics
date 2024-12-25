@@ -1,0 +1,21 @@
+.total{
+color: yellow
+}
+
+#text2{
+    color: green
+    
+}
+/* . for class # for id and nothing for html tags */
+.btn{
+    background-color: brown;
+    
+}
+
+td{
+    border: 5px solid pink;
+}
+
+th{
+    border: 5px solid pink;
+}

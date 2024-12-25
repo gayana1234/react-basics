@@ -18,10 +18,21 @@ const Calci = () => {
   };
   return (
     <div>
-      <input onChange={handleChange1} type="number"></input>
-      <input onChange={handleChange2} type="number"></input>
-      <button onClick={sum}>=</button>
-      <input value={numTotal} type="textbox"></input>
+      <input
+        style={{ color: "red" }}
+        onChange={handleChange1}
+        type="number"
+      ></input>
+      <input
+        id="text2"
+        class="textcls2"
+        onChange={handleChange2}
+        type="number"
+      ></input>
+      <button class="btn" onClick={sum}>
+        =
+      </button>
+      <input class="total" value={numTotal} type="textbox"></input>
     </div>
   );
 };
