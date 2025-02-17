@@ -8,7 +8,7 @@ const Dispatch = () => {
   return (
     <div>
       <p>
-        using redux :{counter.count}
+        Sub using redux :{counter.count}
         {counter.Name}
       </p>
       <button onClick={() => dispatch(increment())}>+</button>
