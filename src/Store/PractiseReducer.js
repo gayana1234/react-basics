@@ -9,7 +9,7 @@ const PractiseReducer = (state = initialState, action) => {
     case DECREMENT:
       return { ...state, count: state.count - 1 };
     case "India":
-      return { ...state, Name: "India" };
+      return { ...state, Name: "Karnataka" };
     default:
       return state;
   }
