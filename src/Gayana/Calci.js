@@ -3,7 +3,9 @@ import { useState } from "react";
 const Calci = () => {
   const [num1, setNum1] = useState(0);
   const [num2, setNum2] = useState(0);
-  const [numTotal, setNumTotal] = useState(0);
+  // const [numTotal, setNumTotal] = useState(0);
+
+  // let g = "SURE";
 
   const handleChange1 = (event) => {
     setNum1(Number(event.target.value));
@@ -14,7 +16,11 @@ const Calci = () => {
     console.log("Hi", event.target.value);
   };
   const sum = () => {
-    setNumTotal(num1 + num2);
+    // g = "GAUABA";
+    localStorage.setItem("adddionGayana", num1 + num2);
+    localStorage.setItem("adddionqqqGayana", num1 + num2);
+    sessionStorage.setItem("sessionGayana", num1 + num2);
+    // setNumTotal(num1 + num2);
   };
   return (
     <div>
@@ -32,7 +38,16 @@ const Calci = () => {
       <button class="btn" onClick={sum}>
         =
       </button>
-      <input class="total" value={numTotal} type="textbox"></input>
+      <input
+        class="total"
+        value={localStorage.getItem("adddionGayana")}
+        type="textbox"
+      ></input>
+      <input
+        class="total"
+        value={sessionStorage.getItem("sessionGayana")}
+        type="textbox"
+      ></input>
     </div>
   );
 };

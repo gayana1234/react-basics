@@ -7,10 +7,10 @@ color: yellow
     
 }
 /* . for class # for id and nothing for html tags */
-.btn{
+/* .btn{
     background-color: brown;
     
-}
+} */
 
 td{
     border: 5px solid pink;
@@ -18,4 +18,19 @@ td{
 
 th{
     border: 5px solid pink;
+}
+
+.content{
+  max-height: 50rem;
+    overflow: auto;
+    text-align: center;
+    justify-items: center;
+    border: 2px solid gray;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.concept{
+    color: cadetblue;
+    text-decoration: underline;
 }

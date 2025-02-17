@@ -1,0 +1,53 @@
+.usingCName{
+    color: yellow;
+}
+
+#hello{
+    background-color: green;
+   
+}
+
+.marginEx{
+    margin-right: 10px;
+}
+
+#paddingEx{
+    padding:2rem;
+}
+.widthHeightEx{
+    background-color: red;
+   
+    width: 10rem;
+    height:200px;
+}
+
+.positionAndAllEx{
+    position: absolute;
+    top:10%;
+    left:14vw;
+}
+
+.positionFixed{
+    position: fixed;
+    top:10vh;
+}
+
+.overExam{
+    height: 100px;
+    overflow: auto ;
+}
+
+.hoverExam:hover{
+    color: red;
+}
+
+#protyCs{
+color: blue;
+}
+
+.priotityCss{
+    color: aqua !important;
+}
+/* p{
+    color: rgb(247, 133, 133);
+} */

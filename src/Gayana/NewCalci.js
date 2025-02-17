@@ -34,8 +34,9 @@ function Calculator() {
   return (
     <div style={{ padding: "20px", textAlign: "center", fontFamily: "Arial" }}>
       <h1>React Calculator</h1>
-      <div style={{ marginBottom: "20px" }}>
+      <div class="main" style={{ marginBottom: "20px" }}>
         <input
+          class="xyz"
           type="number"
           placeholder="Enter first number"
           value={num1}
@@ -50,7 +51,7 @@ function Calculator() {
           style={{ padding: "5px" }}
         />
       </div>
-      <div style={{ marginBottom: "20px" }}>
+      <div class="xyz" style={{ marginBottom: "20px" }}>
         <button onClick={handleAddition} style={{ marginRight: "10px" }}>
           +
         </button>

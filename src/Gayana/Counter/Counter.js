@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 const Counter = () => {
   const [num, setNum] = useState(0);
-  const counter = useSelector((state) => state.counterGayu);
+  const counter = useSelector((state) => state.counterData);
 
   // const handlebutton1 = () => {
   //   setNum(num + 1);

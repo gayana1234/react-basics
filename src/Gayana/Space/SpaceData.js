@@ -16,9 +16,8 @@ const SpaceData = (props) => {
     <div>
       <h1>Mission Name {props.name}</h1>
       <p onClick={sendToParent}>Parent Info {props.parentInfo}</p>
-      <Link to="/gayana"> Submit</Link>
-      <button onClick={handleClick} class="btn">
-        {" "}
+      <Link to="/gayana"> Submit Link</Link>
+      <button style={{ marginLeft: "20px" }} onClick={handleClick} class="btn">
         Submit
       </button>
     </div>
