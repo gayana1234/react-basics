@@ -13,7 +13,7 @@ const Dispatch = () => {
       </p>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
-      <button onClick={() => dispatch(Success())}>Success</button>
+      <button onClick={() => dispatch(Success())}>So good</button>
     </div>
   );
 };
