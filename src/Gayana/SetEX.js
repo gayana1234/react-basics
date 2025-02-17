@@ -15,7 +15,7 @@ const SetEx = () => {
     }, 5000);
   };
 
-  return <div>Hi Sir</div>;
+  return <div>Hrllo eotlrf</div>;
 };
 
 export default SetEx;
